@@ -22,6 +22,7 @@ export interface ChatState {
   profilUtilisateur: ProfilUtilisateur;
   filieresRecommandees: Filiere[];
   isLoading: boolean;
+  isTyping?: boolean;
 }
 
 export interface ProfilUtilisateur {
